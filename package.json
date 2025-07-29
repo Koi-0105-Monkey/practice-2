@@ -1,0 +1,19 @@
+{
+  "name": "parcel-vanilla-starter",
+  "private": true,
+  "version": "0.0.0",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10"
+  },
+  "devDependencies": {
+    "@parcel/transformer-posthtml": "^2.15.4",
+    "parcel": "^2.15.4",
+    "posthtml": "^0.16.6",
+    "posthtml-include": "^2.0.1"
+  }
+}

@@ -1,0 +1,59 @@
+:root {
+  --max-width-container: 1184px;
+  --padding-section: 64px;
+  --padding-inline: 16px;
+  --padding-button: 30px 60px;
+
+  --color-background: #ffffff;
+  --color-surface: #f9f9f9;
+  --color-text-primary: #191825BF;
+  --color-text-secondary: #19182580;
+  --color-heading: #191825;
+  --color-accent: #F85E9F;
+  --color-highlight: #FF5722;
+  --color-border: #1918251A;
+  --color-light-border: #EEEEEE;
+  --color-button: #5D50C6;
+  --color-button-hover: #392c8b;
+  --font-heading: 'Adamina', serif;
+  --font-body: 'Inter', sans-serif;
+  --font-sub: 'ABeeZee', sans-serif;
+
+  --font-size-xxsmall: 7px;
+  --font-size-xsmall: 9px;
+  --font-size-xs: 11px;
+  --font-size-base: 13px;
+  --font-size-small: 14px;
+  --font-size-small-xl: 16px;
+  --font-size-medium: 18px;
+  --font-size-large: 23px;
+  --font-size-xslarge: 35px;
+  --font-size-xlarge: 38px;
+  --font-size-xxlarge: 40px;
+  --font-size-xxxlarge: 48px;
+  --font-size-hero: 64px;
+  --font-size-logo: 25px;
+
+  --font-weight-body: 400;
+  --font-weight-heading: 700;
+  --line-height-mobile: 28px;
+  --line-height-base: 40px;
+  --line-height-tight: 120%;
+  --line-height-relaxed: 160%;
+  --letter-spacing-small: 5px;
+
+  --radius-full: 100px;
+  --radius-xl: 32px;
+  --radius-sm: 30px;
+  --shadow-sm: 0 10px 30px #00000012;
+  --shadow-md: 0 30px 40px rgba(0, 0, 0, 0.05);
+  --shadow-lg: 0 8px 20px rgba(0, 0, 0, 0.12);
+  --shadow-right: 0px 288px 173px 0px #00000012;
+  --shadow-hover:
+    0px 32px 71px rgba(0, 0, 0, 0.05),
+    0px 128px 128px rgba(0, 0, 0, 0.04),
+    0px 288px 173px rgba(0, 0, 0, 0.03),
+    0px 41px 89px rgba(0, 0, 0, 0.1);
+  --transition-base: box-shadow 0.3s ease, transform 0.2s ease;
+  --transform-hover: scale(1.05);
+}

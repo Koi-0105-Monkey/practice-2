@@ -1,0 +1,114 @@
+body {
+  font-family: var(--font-heading);
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+  line-height: var(--line-height-mobile);
+  font-weight: var(--font-weight-body);
+  font-size: var(--font-size-base);
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+.slider__logo {
+  max-width: 40px;
+}
+
+.slider__btn {
+  width: 80px;
+  height: 80px;
+  border-radius: var(--radius-full);
+  background-color: var(--color-background);
+  border: 1px solid var(--color-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider__btn--next {
+  background-color: var(--color-button);
+  box-shadow: var(--shadow-sm);
+}
+
+.label {
+  text-transform: uppercase;
+  color: var(--color-accent);
+  font-size: var(--font-size-large);
+  letter-spacing: var(--letter-spacing-small);
+}
+
+.title {
+  color: var(--color-heading);
+  font-size: var(--font-size-xxlarge);
+  line-height: var(--line-height-tight);
+  font-weight: var(--font-weight-body);
+}
+
+.description {
+  font-weight: var(--font-weight-body);
+  font-family: var(--font-body);
+  color: var(--color-text-secondary);
+  line-height: var(--line-height-relaxed);
+  font-size: var(--font-size-small-xl);
+}
+
+.logo__brand {
+  font-size: var(--font-size-logo);
+  font-family: var(--font-sub);
+  color: var(--color-heading);
+  font-style: italic;
+  font-weight: var(--font-weight-body);
+}
+
+.card {
+  border-radius: var(--radius-xl);
+  background-color: var(--color-background);
+  border: 1px solid var(--color-border);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: var(--transition-base);
+}
+
+.card:hover {
+  box-shadow: var(--shadow-hover);
+  transform: var(--transform-hover);
+}
+
+.purple-button {
+  transition: var(--transition-base);
+}
+
+.purple-button:hover {
+  box-shadow: var(--shadow-hover);
+  background-color: var(--color-button-hover);
+  transform: var(--transform-hover);
+}
+
+.white-button {
+  transition: var(--transition-base);
+}
+
+.white-button:hover {
+  box-shadow: var(--shadow-hover);
+  transform: var(--transform-hover);
+}
+
+.link:hover {
+  color: var(--color-heading);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
