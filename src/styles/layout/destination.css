@@ -1,0 +1,150 @@
+.destination {
+    max-width: var(--max-width-container);
+    margin: 0 auto;
+    padding: var(--padding-section) var(--padding-inline);
+    display: flex;
+    flex-direction: column;
+}
+
+.destination__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.destination__row-header {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.destination__card-title,
+.destination__card-price,
+.destination__card-rate {
+    font-size: var(--font-size-xxxmedium);
+    font-weight: var(--font-weight-body);
+}
+
+.destination__card-price {
+    order: 1;
+}
+
+.destination__card-title {
+    order: 2;
+}
+
+.destination__card-rate {
+    order: 3;
+}
+
+.destination__card {
+    max-width: 330px;
+}
+
+.destination__card-image {
+    max-width: 330px;
+}
+
+.destination__row {
+    display: flex;
+    flex-direction: column;
+}
+
+.destination__controls {
+    display: flex;
+    justify-content: space-between;
+}
+
+.destination__list-card {
+    display: flex;
+    margin-top: 64px;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+}
+
+
+.destination__card-content {
+    padding: 0 23px;
+    display: flex;
+    flex-direction: column;
+    color: var(--color-heading);
+}
+
+.destination__card-price {
+    color: var(--color-accent);
+}
+
+.destination__card-rate {
+    color: var(--color-highlight);
+    display: flex;
+    gap: 2px;
+    flex-wrap: nowrap;
+}
+
+.destination__card-rate-icon {
+    max-width: 24px;
+}
+
+@media (min-width: 768px) {
+    .destination__list-card {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .destination__card {
+        max-width: 330px;
+    }
+
+    .destination__card-image {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .destination {
+        gap: 64px;
+    }
+
+    .destination__card {
+        max-width: 400px;
+        min-width: 310px;
+    }
+
+    .destination__header {
+        align-items: flex-start;
+    }
+
+    .destination__row-header {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .destination__row {
+        flex-direction: row;
+    }
+
+    .destination__card-price {
+        order: 1;
+    }
+
+    .destination__card-title {
+        order: 1;
+    }
+
+    .destination__card-rate {
+        order: 3;
+    }
+
+    .destination__controls {
+        display: flex;
+        gap: 20px;
+        justify-content: flex-start;
+    }
+
+    .destination__list-card {
+        margin-top: 0;
+        gap: 26px;
+    }
+}
