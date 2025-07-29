@@ -2,13 +2,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 32px 16px;
+  padding: 16px 4px;
   max-width: var(--max-width-container);
   margin: 0 auto;
 }
 
 .site-header__logo {
-  display: flex;
+  display: flex; 
   align-items: center;
   gap: 16px;
 }
@@ -19,11 +19,6 @@
 
 .site-header__auth {
   display: none;
-}
-
-.site-header__menu {
-  display: flex;
-  padding: 8px;
 }
 
 @media (min-width: 480px) {
@@ -46,17 +41,25 @@
     color: var(--color-text-primary);
     text-decoration: none;
     font-family: var(--font-body);
-    padding: 7px 26px;
+    padding: 7px 21px;
     border-radius: var(--radius-full);
   }
 
   .site-header__signup {
     background-color: var(--color-button);
     color: var(--color-light-border);
-    padding: 7px 26px;
+    padding: 7px 21px;
     border-radius: var(--radius-full);
     text-decoration: none;
     font-family: var(--font-body);
+  }
+}
+
+/*fix size and line break in button*/
+@media (min-width: 515px) {
+  .site-header__login,
+  .site-header__signup {
+    padding: 7px 26px;
   }
 }
 
