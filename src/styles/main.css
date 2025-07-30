@@ -1,6 +1,8 @@
-@import './layout/header.css';
-@import './layout/hero.css';
 @import './base/variables.css';
 @import './base/typography.css';
 @import './base/reset.css';
 @import './layout/seaction-group.css';
+@import './layout/header.css';
+@import './layout/hero.css';
+@import './layout/partner.css';
+@import './layout/service.css';
