@@ -19,8 +19,6 @@
 .feature__right-wrapper {
     width: 100%;
     order: 1;
-    display: flex;
-    justify-content: center;
 }
 
 .feature__content {
@@ -41,18 +39,19 @@
 
 .feature__cards {
     display: flex;
+    align-items: center;
+}
+
+.feature__cards,
+.feature__card {
+    display: flex;
     flex-direction: column;
-    list-style: none;
-    padding: 0;
-    margin: 0;
 }
 
 .feature__card {
     width: 80%;
     border-radius: var(--radius-xl);
     padding: 32px 32px 0 32px;
-    list-style: none;
-    margin: 0;
 }
 
 .feature__card-content {
@@ -74,7 +73,18 @@
     border: 1px solid var(--color-border);
 }
 
-.feature__card-container {
+ul.feature__cards {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li.feature__card {
+    list-style: none;
+    margin: 0;
+}
+
+figure {
     margin: 0;
     display: flex;
     align-items: flex-start;
@@ -83,59 +93,85 @@
 }
 
 @media (min-width: 480px) {
+    .feature__container {
 
+    }
     .feature__card {
         width: 80%;
-        padding: 32px;
-    }
-
-    .feature__card-content {
-        max-width: 370px;
     }
 
     .feature__description-title {
         padding: 0 100px;
     }
-
-    .feature__card-container {
-        flex-direction: row;
-    }
 }
 
-@media(min-width: 1024px) {
-    .feature__container {
-        flex-direction: row;
-        gap: 0;
-    }
 
-    .feature__left-wrapper {
-        order: 1;
-        align-items: flex-start;
-        width: 90%;
-    }
+/*
+.feature__container {
+    display: flex;
+    max-width: 1312px;
+    margin: 0 auto;
+    padding: var(--padding-section) 0;
+    gap: 75px;
+}
 
-    .feature__right-wrapper {
-        order: 2;
-    }
+.feature__left-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column;
+    gap: 64px;
+    margin-right: 32px;
+}
 
-    .feature__cards {
+.feature__right-wrapper {
+    width: 100%;
+}
 
-    }
+.feature__cards,
+.feature__card {
+    display: flex;
+}
 
-    .feature__card {
-        width: 100%;
-    }
+.feature__cards {
+    flex-direction: column;
+}
 
-    .feature__content {
-        align-items: flex-start;
-    }
+.feature__card {
+    gap: 32px;
+    border-radius: var(--radius-xl);
+    padding: 32px;
+}
 
-    .feature__description-title {
-        text-align: start;
-        padding: 0;
-    }
-    
-    .feature__line-break {
-        display: block;
-    }
+.feature__icon {
+    max-width: 100px;
+}
+
+.feature__card-title {
+    color: var(--color-header);
+    font-size: var(--font-size-large);
+    line-height: var(--line-height-tight);
+    font-weight: var(--font-weight-body);
+}
+
+.feature__card--schedule-icon {
+    border: 1px solid var(--color-border);
+}
+
+ul.feature__cards {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li.feature__card {
+    list-style: none;
+    margin: 0;
+}
+
+figure {
+    margin: 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
 }

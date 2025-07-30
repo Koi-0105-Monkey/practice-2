@@ -38,11 +38,11 @@
 }
 
 .destination__card {
-    max-width: 330px;
+    max-width: 350px;
 }
 
 .destination__card-image {
-    max-width: 330px;
+    max-width: 100%;
 }
 
 .destination__row {
@@ -92,12 +92,10 @@
         gap: 20px;
     }
 
-    .destination__card {
-        max-width: 330px;
-    }
-
-    .destination__card-image {
-        max-width: 100%;
+    .destination__controls {
+        display: flex;
+        gap: 32px;
+        justify-content: center;
     }
 }
 
@@ -107,7 +105,7 @@
     }
 
     .destination__card {
-        max-width: 400px;
+        max-width: 370px;
         min-width: 310px;
     }
 
@@ -134,17 +132,16 @@
     }
 
     .destination__card-rate {
-        order: 3;
+        order: 2;
     }
 
     .destination__controls {
-        display: flex;
-        gap: 20px;
         justify-content: flex-start;
     }
 
     .destination__list-card {
         margin-top: 0;
-        gap: 26px;
+        justify-content: space-between;
+        gap: 20px;
     }
 }
