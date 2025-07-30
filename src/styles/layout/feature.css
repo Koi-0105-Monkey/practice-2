@@ -1,0 +1,68 @@
+.feature__container {
+    display: flex;
+    max-width: 1312px;
+    margin: 0 auto;
+    padding: var(--padding-section) 0;
+    gap: 70px;
+}
+
+.feature__left-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 601px;
+    flex-direction: column;
+    gap: 64px;
+    margin-right: 32px;
+}
+
+.feature__right-wrapper {
+    max-width: 691px;
+}
+
+.feature__cards,
+.feature__card {
+    display: flex;
+}
+
+.feature__cards {
+    flex-direction: column;
+}
+
+.feature__card {
+    gap: 32px;
+    border-radius: var(--radius-xl);
+    padding: 32px;
+}
+
+.feature__icon {
+    max-width: 100px;
+}
+
+.feature__card-title {
+    color: var(--color-header);
+    font-size: var(--font-size-large);
+    line-height: var(--line-height-tight);
+    font-weight: var(--font-weight-body);
+}
+
+.feature__card--schedule-icon {
+    border: 1px solid var(--color-border);
+}
+
+ul.feature__cards {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li.feature__card {
+    list-style: none;
+    margin: 0;
+}
+
+figure {
+    margin: 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+}

@@ -985,4 +985,71 @@ img {
     margin-bottom: 10px;
   }
 }
+
+.feature__container {
+  max-width: 1312px;
+  padding: var(--padding-section) 0;
+  gap: 70px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.feature__left-wrapper {
+  flex-flow: column wrap;
+  gap: 64px;
+  max-width: 601px;
+  margin-right: 32px;
+  display: flex;
+}
+
+.feature__right-wrapper {
+  max-width: 691px;
+}
+
+.feature__cards, .feature__card {
+  display: flex;
+}
+
+.feature__cards {
+  flex-direction: column;
+}
+
+.feature__card {
+  border-radius: var(--radius-xl);
+  gap: 32px;
+  padding: 32px;
+}
+
+.feature__icon {
+  max-width: 100px;
+}
+
+.feature__card-title {
+  color: var(--color-header);
+  font-size: var(--font-size-large);
+  line-height: var(--line-height-tight);
+  font-weight: var(--font-weight-body);
+}
+
+.feature__card--schedule-icon {
+  border: 1px solid var(--color-border);
+}
+
+ul.feature__cards {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li.feature__card {
+  margin: 0;
+  list-style: none;
+}
+
+figure {
+  align-items: flex-start;
+  gap: 32px;
+  margin: 0;
+  display: flex;
+}
 /*# sourceMappingURL=practice-2.5525e4b8.css.map */
