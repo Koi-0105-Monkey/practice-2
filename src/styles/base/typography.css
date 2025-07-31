@@ -80,6 +80,7 @@ body {
 
 .purple-button {
   transition: var(--transition-base);
+  cursor: pointer;
 }
 
 .purple-button:hover {
@@ -90,11 +91,16 @@ body {
 
 .white-button {
   transition: var(--transition-base);
+  cursor: pointer;
 }
 
 .white-button:hover {
   box-shadow: var(--shadow-hover);
   transform: var(--transform-hover);
+}
+
+.link {
+  cursor: pointer;
 }
 
 .link:hover {

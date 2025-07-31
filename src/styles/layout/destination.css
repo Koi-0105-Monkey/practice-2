@@ -39,6 +39,7 @@
 
 .destination__card {
     max-width: 350px;
+    cursor: pointer;
 }
 
 .destination__card-image {

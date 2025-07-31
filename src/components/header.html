@@ -3,19 +3,22 @@
     <img src="./assets/images/Logo.svg" alt="Travlog Logo" class="slider__logo site-header__logo-img" />
     <figcaption class="logo__brand site-header__brand">Travlog</figcaption>
   </figure>
-  <button class="white-button site-header__menu">
+  <button class="white-button site-header__menu" id="hamburger">
     <img src="./assets/images/header-menu.svg" alt="Menu">
   </button>
-  </figure>
-  <nav class="site-header__nav">
+
+  <nav class="site-header__nav" id="navMenu">
     <a href="#home" class="link site-header__link site-header__link--home">Home</a>
     <a href="#discover" class="link site-header__link">Discover</a>
     <a href="#special-deals" class="link site-header__link">Special Deals</a>
     <a href="#contact" class="link site-header__link">Contact</a>
   </nav>
 
-  <div class="site-header__auth">
+  <div class="site-header__auth" id="authMenu">
     <a href="#" class="white-button site-header__login">Log In</a>
     <a href="#" class="purple-button site-header__signup">Sign Up</a>
   </div>
+
+  <div class="menu-overlay" id="menuOverlay"></div>
+  <script src="./scripts/toggle-menu.js"></script>
 </header>

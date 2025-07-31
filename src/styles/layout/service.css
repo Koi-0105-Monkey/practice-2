@@ -20,6 +20,7 @@
 
 .service-card {
     padding: 32px;
+    cursor: pointer;
 }
 
 .service-card__icon {

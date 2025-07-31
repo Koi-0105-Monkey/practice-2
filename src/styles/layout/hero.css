@@ -52,6 +52,7 @@
   display: inline-flex;
   align-items: center;
   box-shadow: var(--shadow-sm);
+  cursor: pointer;
 }
 
 .hero__badge {
