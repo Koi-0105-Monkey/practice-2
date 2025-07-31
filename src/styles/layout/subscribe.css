@@ -1,16 +1,16 @@
 .subscribe {
   background-color: #FACD4914;
   max-width: var(--max-width-container);
-  margin: 100px auto;
+  margin: 0 auto;
   padding: 128px 0;
   border-radius: var(--radius-xl);
+  display: flex;
   text-align: center;
 }
 
 .subscribe__container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   padding: 0 64px;
 }
 
@@ -66,28 +66,29 @@
 }
 
 @media(min-width: 768px) {
-    .subscribe__container {
-        padding: 0 80px;
-    }
+  .subscribe__container {
+    display: flex;
+    padding: 0 80px;
+  }
 
-    .subscribe__form {
-        flex-direction: row;
-    }
+  .subscribe__form {
+    flex-direction: row;
+  }
 
-    .subscribe__form-group {
-        padding: 32px;
-        max-width: 700px;
-    }
+  .subscribe__form-group {
+    padding: 32px;
+    max-width: 700px;
+  }
 
-    .subscribe__button {
-        width: 20%;
-    }
+  .subscribe__button {
+    width: 20%;
+  }
 
-    .subscribe__input {
-        font-size: var(--font-size-large);
-    }
+  .subscribe__input {
+    font-size: var(--font-size-large);
+  }
 
-    .subscribe__input::placeholder {
-        font-size: var(--font-size-large);
-    }
+  .subscribe__input::placeholder {
+    font-size: var(--font-size-large);
+  }
 }
