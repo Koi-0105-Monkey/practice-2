@@ -1,7 +1,7 @@
 .destination {
     max-width: var(--max-width-container);
     margin: 0 auto;
-    padding: var(--padding-section) var(--padding-inline);
+    padding: 0 var(--padding-inline) var(--padding-section);
     display: flex;
     flex-direction: column;
 }
@@ -40,6 +40,7 @@
 .destination__card {
     max-width: 350px;
     cursor: pointer;
+    display: flex;
 }
 
 .destination__card-image {
@@ -49,6 +50,7 @@
 .destination__row {
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
 .destination__controls {
@@ -66,10 +68,11 @@
 
 
 .destination__card-content {
-    padding: 0 23px;
+    padding: 23px;
     display: flex;
     flex-direction: column;
     color: var(--color-heading);
+    gap: 25px;
 }
 
 .destination__card-price {
@@ -98,16 +101,15 @@
         gap: 32px;
         justify-content: center;
     }
+
+    .destination__card {
+        width: 370px;
+    }
 }
 
 @media (min-width: 1024px) {
     .destination {
         gap: 64px;
-    }
-
-    .destination__card {
-        max-width: 370px;
-        min-width: 310px;
     }
 
     .destination__header {

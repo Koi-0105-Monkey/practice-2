@@ -7,11 +7,6 @@ body {
   font-size: var(--font-size-base);
 }
 
-html,
-body {
-  overflow-x: hidden;
-}
-
 .slider__logo {
   max-width: 40px;
 }
@@ -44,6 +39,7 @@ body {
   font-size: var(--font-size-xslarge);
   line-height: var(--line-height-tight);
   font-weight: var(--font-weight-body);
+  margin: 8px 0;
 }
 
 .description {
