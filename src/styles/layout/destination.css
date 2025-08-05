@@ -1,7 +1,7 @@
 .destination {
     max-width: var(--max-width-container);
     margin: 0 auto;
-    padding: 0 var(--padding-inline) var(--padding-section);
+    padding: 1rem 0;
     display: flex;
     flex-direction: column;
 }
@@ -15,7 +15,7 @@
 .destination__row-header {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 1rem;
 }
 
 .destination__card-title,
@@ -38,19 +38,15 @@
 }
 
 .destination__card {
-    max-width: 350px;
+    max-width: 23.6rem;
     cursor: pointer;
     display: flex;
-}
-
-.destination__card-image {
-    max-width: 100%;
 }
 
 .destination__row {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0.7rem;
 }
 
 .destination__controls {
@@ -60,19 +56,18 @@
 
 .destination__list-card {
     display: flex;
-    margin-top: 64px;
+    margin-top: 2rem;
     align-items: center;
     flex-direction: column;
-    gap: 32px;
+    gap: 2rem;
 }
 
-
 .destination__card-content {
-    padding: 23px;
+    padding: 1.99rem;
     display: flex;
     flex-direction: column;
     color: var(--color-heading);
-    gap: 25px;
+    gap: 1rem;
 }
 
 .destination__card-price {
@@ -82,34 +77,36 @@
 .destination__card-rate {
     color: var(--color-highlight);
     display: flex;
-    gap: 2px;
+    gap: 0.3rem;
     flex-wrap: nowrap;
+    margin-top: 1rem;
 }
 
 .destination__card-rate-icon {
-    max-width: 24px;
+    max-width: 1.5rem;
 }
 
 @media (min-width: 768px) {
     .destination__list-card {
         flex-direction: row;
-        gap: 20px;
-    }
-
-    .destination__controls {
-        display: flex;
-        gap: 32px;
+        gap: 1.7rem;
         justify-content: center;
     }
 
     .destination__card {
-        width: 370px;
+        max-width: 17.5rem;
+    }
+
+    .destination__controls {
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
     }
 }
 
 @media (min-width: 1024px) {
     .destination {
-        gap: 64px;
+        gap: 2rem;
     }
 
     .destination__header {
@@ -145,6 +142,10 @@
     .destination__list-card {
         margin-top: 0;
         justify-content: space-between;
-        gap: 20px;
+    }
+
+    .destination__card {
+        max-width: 23.6rem;
+        gap: 1rem;
     }
 }

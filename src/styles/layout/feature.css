@@ -2,16 +2,16 @@
     display: flex;
     max-width: 1312px;
     margin: 0 auto;
-    padding: var(--padding-section) 32px;
+    padding: 4rem 0 2rem;
     flex-direction: column;
-    gap: 32px;
+    gap: 2rem;
 }
 
 .feature__left-wrapper {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    gap: 32px;
+    gap: 2rem;
     order: 2;
 }
 
@@ -31,6 +31,7 @@
 .feature__description-title {
     display: flex;
     text-align: center;
+    padding: 1.3rem 4rem 1.8rem 0;
 }
 
 .feature__line-break {
@@ -41,21 +42,25 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    align-items: center;
 }
 
 .feature__card {
-    width: 100%;
+    width: 83%;
     border-radius: var(--radius-xl);
-    padding: 32px;
+    padding: 2rem;
     cursor: pointer;
 }
 
 .feature__card-content {
-    max-width: 300px;
+    max-width: 25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
 }
 
 .feature__icon {
-    max-width: 100px;
+    max-width: 6.25rem;
 }
 
 .feature__card-title {
@@ -74,16 +79,17 @@
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    gap: 32px;
+    gap: 2rem;
 }
 
 @media (min-width: 480px) {
     .feature__card {
-        padding: 32px;
+        padding: 2rem;
     }
 
-    .feature__card-content {
-        max-width: 370px;
+    .feature__description-title {
+        padding: 1.3rem 0 1.8rem 0;
+        max-width: 47rem;
     }
 
     .feature__card-container {
@@ -100,7 +106,7 @@
     .feature__left-wrapper {
         order: 1;
         align-items: flex-start;
-        width: 60%;
+        width: 70%;
     }
 
     .feature__right-wrapper {
@@ -108,8 +114,12 @@
         order: 2;
     }
 
+    .feature__cards {
+        align-items: start;
+    }
+
     .feature__card {
-        width: 90%;
+        width: 96%;
     }
 
     .feature__content {
@@ -118,7 +128,7 @@
 
     .feature__description-title {
         text-align: start;
-        padding: 0;
+        padding: 1.3rem 4rem 1.8rem 0;
     }
 
     .feature__line-break {

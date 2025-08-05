@@ -1,10 +1,10 @@
 .slider__logo {
-  max-width: 40px;
+  max-width: 2.5rem;
 }
 
 .slider__btn {
-  width: 64px;
-  height: 64px;
+  width: 4rem;
+  height: 4rem;
   border-radius: var(--radius-full);
   background-color: var(--color-background);
   border: 1px solid var(--color-border);
@@ -69,7 +69,7 @@
 
 @media (min-width: 480px) {
   .slider__btn {
-    width: 100px;
-    height: 100px;
+    width: 6.25rem;
+    height: 6.25rem;
   }
 }

@@ -2,14 +2,14 @@
     display: flex;
     max-width: 1312px;
     margin: 0 auto;
-    padding: var(--padding-section) 0;
+    padding: 4rem 0;
     color: var(--color-heading);
     flex-direction: column;
-    gap: 64px;
+    gap: 4rem;
 }
 
 .travel-point__image-wrapper {
-    width: 100%;
+    width: 90%;
 }
 
 .travel-point__content-wrapper {
@@ -27,7 +27,7 @@
 }
 
 .travel-point__description {
-    padding: 20px 0;
+    padding: 1rem 3.3rem 0;
 }
 
 .travel-point__stats {
@@ -63,31 +63,40 @@
 
 @media(min-width: 480px) {
     .travel-point__container {
-        padding: var(--padding-section) var(--padding-inline);
+        padding: 4rem 3rem;
     }
-    
+
     .travel-point__stats {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        gap: 16px;
+        gap: 2rem;
     }
 
     .travel-point__stat {
-        width: 45%;
-        height: 151px;
+        width: 32%;
+        height: 9.94375rem;
         margin-bottom: 0;
+    }
+
+    .travel-point__description {
+        padding: 1rem 5.3rem 0;
     }
 }
 
 @media(min-width: 1024px) {
     .travel-point__container {
         flex-direction: row;
+        padding: 4rem 0;
     }
 
-    .travel-point__content-wrapper{
+    .travel-point__content-wrapper {
         width: 47%;
+    }
+
+    .travel-point__description {
+        padding: 1rem 0 2rem;
     }
 
     .travel-point__content {
@@ -100,6 +109,6 @@
     }
 
     .travel-point__stat {
-        margin-bottom: 10px;
+        width: 45%;
     }
 }
