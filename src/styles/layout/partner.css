@@ -1,47 +1,52 @@
 .partner-logos {
     max-width: var(--max-width-container);
     margin: 0 auto;
-    padding: 0 32px;
+    padding: 1rem 2rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 30px;
+    gap: 1.3rem;
 }
 
-.partner-logos__item {
-    width: 60px;
+.partner-logos__item-tripadvisor,
+.partner-logos__item-expedia,
+.partner-logos__item-booking,
+.partner-logos__item-airbnb,
+.partner-logos__item-orbitz {
     height: auto;
     flex: 0 0 auto;
 }
 
-.partner-logos__big-item {
-    width: 110px;
-    height: auto;
-    flex: 0 0 auto;
+.partner-logos__item-booking,
+.partner-logos__item-orbitz {
+    width: 30%;
+}
+
+.partner-logos__item-tripadvisor {
+    width: 35%;
+}
+
+.partner-logos__item-expedia,
+.partner-logos__item-airbnb {
+    width: 20%;
 }
 
 @media (min-width: 480px) {
-    .partner-logos__item {
-        width: 110px;
-    }
-
-    .partner-logos__big-item {
-        width: 190px;
-    }
-
     .partner-logos {
-        padding: 64px 32px;
+        padding: 0 10%;
+    }
+
+    .partner-logos__item-tripadvisor,
+    .partner-logos__item-expedia,
+    .partner-logos__item-booking,
+    .partner-logos__item-airbnb,
+    .partner-logos__item-orbitz {
+        width: fit-content;
     }
 }
 
 /*line break*/
-@media (min-width: 720px) {
-    .partner-logos {
-        padding: 0 10%;
-    }
-}
-
-@media (min-width: 835px) {
+@media (min-width: 880px) {
     .partner-logos {
         padding: 0 17%;
     }
@@ -50,6 +55,6 @@
 @media (min-width: 1024px) {
     .partner-logos {
         justify-content: space-between;
-        padding: 0;
+        padding: 5rem 0 1rem;
     }
 }

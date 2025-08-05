@@ -2,7 +2,7 @@
     display: flex;
     max-width: var(--max-width-container);
     margin: 0 auto;
-    padding: var(--padding-section) var(--padding-inline);
+    padding: 2rem 1rem;
     align-items: center;
     flex-direction: column;
 }
@@ -14,20 +14,20 @@
 .service__list {
     display: flex;
     flex-direction: column;
-    margin-top: 32px;
-    gap: 25px;
+    margin-top: 2rem;
+    gap: 1.5625rem;
     width: 100%;
 }
 
 .service-card {
-    padding: 32px;
+    padding: 2rem;
     display: flex;
-    gap: 32px;
+    gap: 2rem;
     cursor: pointer;
 }
 
 .service-card__icon {
-    width: 64px;
+    width: 4rem;
 }
 
 .service-card__content {
@@ -35,7 +35,7 @@
     flex-direction: column;
     text-align: center;
     align-items: center;
-    gap: 32px;
+    gap: 2rem;
 }
 
 .service-card__heading {
@@ -44,19 +44,19 @@
     color: var(--color-heading);
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
     .service__list {
         flex-direction: row;
         justify-content: center;
     }
 
     .service-card {
-        max-width: 250px;
-        gap: 64px;
+        max-width: 15.625rem;
+        gap: 4rem;
     }
 
     .service-card__text {
-        max-width: 150px;
+        max-width: 9.375rem;
     }
 }
 
@@ -64,30 +64,45 @@
     .service {
         flex-direction: row;
         justify-content: space-between;
+        padding: 2.8rem 0;
     }
 
     .service__header {
-        width: 719px;
+        width: 44.9375rem;
         text-align: start;
     }
 
     .service__list {
         display: flex;
         overflow-x: auto;
-        overflow-y: visible;
         scroll-snap-type: x mandatory;
         -webkit-overflow-scrolling: touch;
-        padding: 30px 30px 100px 30px;
+        padding: 2rem 2rem 5.8rem 2rem;
         scroll-snap-align: start;
+        overflow-y: hidden;
+        transition: overflow 0.3s ease;
+    }
+
+    .service__list:hover {
+        overflow-y: auto;
     }
 
     .service__list::-webkit-scrollbar {
         display: none;
     }
 
+    .service__list::-webkit-scrollbar-thumb {
+        background-color: rgba(162, 161, 161, 0.3);
+        border-radius: var(--radius-xl);
+    }
+
+    .service__list:hover::-webkit-scrollbar {
+        display: block;
+    }
+
     .service-card {
         flex: 0 0 auto;
-        max-width: 340px;
+        max-width: 21.3rem;
         padding: var(--padding-section);
     }
 
@@ -99,6 +114,6 @@
 
 
     .service-card__text {
-        max-width: 220px;
+        max-width: 13.75rem;
     }
 }
