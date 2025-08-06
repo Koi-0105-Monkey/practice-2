@@ -33,7 +33,7 @@
 
 @media (min-width: 480px) {
     .partner-logos {
-        padding: 5.5rem 10%;
+        padding: 5.6rem 11%;
     }
 
     .partner-logos__item-tripadvisor,
@@ -48,13 +48,14 @@
 /*line break*/
 @media (min-width: 880px) {
     .partner-logos {
-        padding: 5.5rem 17%;
+        padding: 5.6rem 16%;
+        gap: 1.8rem;
     }
 }
 
 @media (min-width: 1024px) {
     .partner-logos {
         justify-content: space-between;
-        padding: 5rem 0 1rem;
+        padding: 4.7rem 0 1rem;
     }
 }

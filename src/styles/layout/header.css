@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 4.19rem 2.6rem 2.09rem;
+  padding: 4.19rem 2.6rem 2.1rem;
   max-width: var(--max-width-container);
   margin: 0 auto;
 }
@@ -10,7 +10,7 @@
 .site-header__logo {
   display: flex;
   align-items: center;
-  gap: 0.84rem;
+  gap: 1rem;
 }
 
 .site-header__menu {
@@ -140,7 +140,7 @@
 /*fix size and line break in button*/
 @media (min-width: 555px) {
   .site-header {
-    padding: 2.05rem 3rem 2.05rem 4.3rem;
+    padding: 2.05rem 3.56rem 2.05rem 3.7rem;
   }
 
   .site-header__login,
@@ -164,7 +164,7 @@
 
   .site-header__nav {
     display: flex;
-    gap: 4.29rem;
+    gap: 4.3rem;
     order: 2;
   }
 }

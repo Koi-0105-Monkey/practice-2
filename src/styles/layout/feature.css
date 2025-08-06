@@ -2,7 +2,7 @@
     display: flex;
     max-width: 1312px;
     margin: 0 auto;
-    padding: 4rem 0 2rem;
+    padding: 1.6rem 0;
     flex-direction: column;
     gap: 2rem;
 }
@@ -12,6 +12,7 @@
     flex-wrap: wrap;
     flex-direction: column;
     gap: 2rem;
+    margin-top: 2rem;
     order: 2;
 }
 
@@ -20,6 +21,7 @@
     order: 1;
     display: flex;
     justify-content: center;
+    padding-right: 6.9rem;
 }
 
 .feature__content {
@@ -89,7 +91,7 @@
 
     .feature__description-title {
         padding: 1.3rem 0 1.8rem 0;
-        max-width: 47rem;
+        max-width: 48rem;
     }
 
     .feature__card-container {
@@ -106,11 +108,12 @@
     .feature__left-wrapper {
         order: 1;
         align-items: flex-start;
-        width: 70%;
+        width: 100%;
     }
 
     .feature__right-wrapper {
-        width: 60%;
+        width: 100%;
+        padding: 1rem 0 0 4rem;
         order: 2;
     }
 

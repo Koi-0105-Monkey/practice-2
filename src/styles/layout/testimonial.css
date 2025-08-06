@@ -15,7 +15,7 @@
 }
 
 .testimonial__btn--prev-hide {
-    display: none;
+    display: none !important;
 }
 
 .testimonial__line-break {
@@ -65,14 +65,14 @@
 .testimonial__control {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 83.5%;
     justify-content: space-between;
 }
 
 .testimonial__pagination {
     display: flex;
     gap: 1.5rem;
-    margin: 3.5rem 0;
+    margin: 4.1rem 0;
 }
 
 .testimonial__dot {
@@ -91,9 +91,9 @@
         background-image: url('../../assets/images/testimonial-background.svg');
         background-size: cover;
         width: 100%;
-        height: 40%;
+        height: 55%;
         position: absolute;
-        top: 60%;
+        top: 52%;
         background-position: center;
         left: 0;
         z-index: -1;
@@ -103,11 +103,12 @@
         justify-content: space-between;
         align-items: center;
         flex-direction: row;
-        padding: 2.8rem 3.4rem;
+        padding: 3.4rem 3.4rem 7rem;
     }
 
     .testimonial__btn--prev-hide {
-        display: flex;
+        display: flex !important;
+        margin-bottom: 3.4rem;
     }
 
     .testimonial__btn--prev {
@@ -116,6 +117,15 @@
 
     .testimonial__control {
         width: fit-content;
+        margin-bottom: 3.4rem;
+    }
+
+    .testimonial-card__text {
+        padding: 0 2rem;
+    }
+
+    .testimonial__pagination {
+        margin: 3.3rem 0;
     }
 
     .testimonial__body {
@@ -126,7 +136,7 @@
 
 @media(min-width: 1024px) {
     .testimonial__container {
-        padding: 2.8rem 0;
+        padding: 4.4rem 0 2.8rem;
     }
 
     .testimonial__body {
@@ -136,5 +146,9 @@
     .testimonial__background {
         height: 100%;
         top: 26%;
+    }
+
+    .testimonial-card__text {
+        padding: 0;
     }
 }

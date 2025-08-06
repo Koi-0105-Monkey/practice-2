@@ -3,8 +3,7 @@ body {
   background-color: var(--color-background);
   color: var(--color-text-primary);
   line-height: var(--line-height-mobile);
-  font-weight: var(--font-weight-small);
-  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-body);
 }
 
 .label {

@@ -2,14 +2,14 @@
     display: flex;
     max-width: 1312px;
     margin: 0 auto;
-    padding: 4rem 0;
+    padding: 4rem;
     color: var(--color-heading);
     flex-direction: column;
     gap: 4rem;
 }
 
 .travel-point__image-wrapper {
-    width: 90%;
+    width: 100%;
 }
 
 .travel-point__content-wrapper {
@@ -17,7 +17,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 32px;
+    gap: 2rem;
 }
 
 .travel-point__content {
@@ -51,19 +51,27 @@
     border: 1px solid var(--color-border);
     background-color: var(--color-background);
     border-radius: var(--radius-xl);
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .travel-point__value {
     color: var(--color-highlight);
     font-size: var(--font-size-xslarge);
     line-height: var(--line-height-tight);
-    margin-bottom: 18px;
+    margin-bottom: 1.25rem;
 }
 
 @media(min-width: 480px) {
     .travel-point__container {
-        padding: 4rem 3rem;
+        padding: 4.3rem 0;
+    }
+
+    .travel-point__image-wrapper {
+        margin-left: 4rem;
+    }
+
+    .travel-point__image-background {
+        width: 87.5%;
     }
 
     .travel-point__stats {
@@ -71,13 +79,22 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+        margin-top: 1.9rem;
         gap: 2rem;
     }
 
     .travel-point__stat {
-        width: 32%;
-        height: 9.94375rem;
+        width: 39.8%;
+        height: 9.45rem;
         margin-bottom: 0;
+    }
+
+    .travel-point__value {
+        font-size: var(--font-size-sllarge);
+    }
+
+    .travel-point__stat-label {
+        font-size: var(--font-size-smedium);
     }
 
     .travel-point__description {
@@ -88,15 +105,24 @@
 @media(min-width: 1024px) {
     .travel-point__container {
         flex-direction: row;
-        padding: 4rem 0;
+        padding: 3.9rem 0 1.7rem;
     }
 
     .travel-point__content-wrapper {
-        width: 47%;
+        width: 55%;
+    }
+
+    .travel-point__image-background {
+        width: 100%;
+    }
+
+    .travel-point__image-wrapper {
+        margin-left: 0;
+        padding-top: 1.5rem;
     }
 
     .travel-point__description {
-        padding: 1rem 0 2rem;
+        padding: 1rem 0 0;
     }
 
     .travel-point__content {

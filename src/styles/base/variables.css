@@ -25,25 +25,28 @@
   --font-size-xs: 0.6875rem;         /* 11px */
   --font-size-base: 0.8125rem;       /* 13px */
   --font-size-small: 0.875rem;       /* 14px */
-  --font-size-small-xl: 1rem;        /* 16px */
-  --font-size-medium: 1.125rem;      /* 18px */
+  --font-size-small-xxl: 1rem;       /* 16px */
+  --font-size-small-xl: 1.064rem;        
+  --font-size-smedium: 1.1rem; 
+  --font-size-medium: 1.195rem;  
   --font-size-xxxmedium: 1.4375rem;  /* 23px */
   --font-size-large: 1.5rem;         /* 24px */
   --font-size-slarge: 1.75rem;       /* 28px */
   --font-size-xslarge: 2rem;         /* 32px */
+  --font-size-sllarge: 2.1rem; 
   --font-size-xlarge: 2.375rem;      /* 38px */
   --font-size-xxlarge: 2.5rem;       /* 40px */
   --font-size-xxxlarge: 3rem;        /* 48px */
   --font-size-hero: 4rem;            /* 64px */
-  --font-size-logo: 1.5625rem;       /* 25px */
+  --font-size-logo: 1.5rem;  
 
   --font-weight-body: 400;
   --font-weight-heading: 700;
 
   --line-height-mobile: 1.75rem; 
   --line-height-base: 2.5rem;
-  --line-height-tight: 1.2;
-  --line-height-relaxed: 1.6;
+  --line-height-tight: 120%;
+  --line-height-relaxed: 160%;
   --letter-spacing-small: 0.25rem; 
 
   --radius-full: 6.25rem; 
