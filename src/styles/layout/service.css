@@ -1,8 +1,14 @@
 .service {
-    display: flex;
     max-width: var(--max-width-container);
     margin: 0 auto;
-    padding: 2.5rem 1rem 4rem;
+    padding: 0 2rem;
+}
+
+.service__container {
+    display: flex;
+    max-width: var(--max-width-container-secondary);
+    margin: 0 auto;
+    padding: 3.35rem 0 4rem;
     align-items: center;
     flex-direction: column;
 }
@@ -14,16 +20,19 @@
 .service__list {
     display: flex;
     flex-direction: column;
-    margin-top: 2rem;
-    gap: 1.5625rem;
+    margin-top: 1rem;
+    gap: 1.1rem;
     width: 100%;
+    align-items: center;
 }
 
 .service-card {
-    padding: 2rem;
+    padding: 1.83rem 1.5rem;
     display: flex;
+    align-items: center;
     gap: 2rem;
     cursor: pointer;
+    width: 96%;
 }
 
 .service-card__icon {
@@ -46,24 +55,38 @@
 }
 
 @media(min-width: 480px) {
+    .service {
+        margin-left: 1rem;
+    }
+
+    .service__container {
+        padding: 2.5rem 0 4.1rem;
+    }
+
     .service-card__heading {
         font-size: var(--font-size-slarge);
     }
-
-    .service-card__text {
-        max-width: 10.375rem;
-    }
 }
 
-@media (min-width: 768px) {
+/*Fix size*/
+@media (min-width: 820px) {
     .service__list {
         flex-direction: row;
-        gap: 1.6rem;
+        justify-content: center;
+        gap: 0.9rem;
         margin-top: 2.9rem;
     }
 
     .service-card {
-        max-width: 18rem;
+        max-width: 18.1rem;
+        padding: 4rem 2.8rem 1.7rem;
+        gap: 4.15rem;
+    }
+}
+
+@media (min-width: 936px) {
+    .service-card {
+        max-width: 18.1rem;
         padding: 4rem 4rem 1.7rem;
         gap: 4.15rem;
     }
@@ -71,19 +94,25 @@
 
 @media (min-width: 1024px) {
     .service {
+        margin: 0 auto;
+    }
+
+    .service__container {
         flex-direction: row;
         justify-content: space-between;
-        padding: 1.9rem 0 1rem;
+        padding: 1rem 0;
     }
 
     .service__header {
-        width: 40.9375rem;
         text-align: start;
+        margin-bottom: 1rem;
     }
 
     .service__list {
+        justify-content: start;
         overflow-x: auto;
-        padding: 2rem 2rem 5.6rem 2rem;
+        margin-top: 3.1rem;
+        padding: 1.5rem 2rem 5.6rem 2rem;
         overflow-y: hidden;
         transition: overflow 0.3s ease;
         scroll-snap-align: start;
@@ -109,8 +138,8 @@
     .service-card {
         flex: 0 0 auto;
         max-width: 22.2rem;
-        padding: 3rem 3.9rem 4.7rem;
-        
+        padding: 3rem 4rem 5.6rem;
+
     }
 
     .service-card__heading {

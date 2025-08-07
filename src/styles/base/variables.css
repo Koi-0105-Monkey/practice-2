@@ -1,8 +1,10 @@
 :root {
-  --max-width-container: 74rem;              /* 1184px */
+  --max-width-container: 1440px;
+  --max-width-container-primary: 1312px;
+  --max-width-container-secondary: 1184px;
   --padding-section: 4rem;                   /* 64px */
   --padding-inline: 1rem;                    /* 16px */
-  --padding-button: 1.875rem 3.75rem;        /* 30px 60px */
+  --padding-button: 1.2rem 3.75rem;        /* 30px 60px */
 
   --color-background: #ffffff;
   --color-surface: #f9f9f9;
@@ -51,7 +53,7 @@
 
   --radius-full: 6.25rem; 
   --radius-xl: 2rem;    
-  --radius-sm: 1.875rem; 
+  --radius-sm: 1.8rem; 
 
   --shadow-sm: 0 0.625rem 1.875rem #00000012;
   --shadow-md: 0 1.875rem 2.5rem rgba(0, 0, 0, 0.05);
