@@ -133,7 +133,7 @@
 
 @media(min-width: 1024px) {
     .feature__container {
-        padding: 4.2rem 0;
+        padding: 4.2rem 0 4.7rem;
         flex-direction: row;
         gap: 0;
     }
@@ -147,8 +147,9 @@
 
     .feature__right-wrapper {
         width: 91%;
-        padding: 1rem 0 0 0;
+        padding: 0;
         order: 2;
+        margin-left: 4.7rem;
     }
 
     .feature__cards {

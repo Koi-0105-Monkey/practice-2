@@ -1,7 +1,13 @@
-.footer__container {
+.footer {
     max-width: var(--max-width-container);
     margin: 0 auto;
-    padding: 1.2rem 2.5rem;
+    padding: 0 2.4rem;
+}
+
+.footer__container {
+    max-width: var(--max-width-container-secondary);
+    margin: 0 auto;
+    padding: 2.05rem 0;
     display: flex;
     gap: 1.875rem;
     flex-direction: column;
@@ -25,7 +31,13 @@
     display: flex;
     gap: 2rem;
     margin-top: 1.8125rem;
+    margin-left: 0.1rem;
     order: 2;
+}
+
+.footer__description {
+    padding-right: 1rem;
+    padding-left: 0.25rem;
 }
 
 .footer__list {
@@ -49,6 +61,7 @@
     display: flex;
     flex-direction: row-reverse;
     width: 100%;
+    padding: 0 0.1rem;
     justify-content: space-between;
 }
 
@@ -59,13 +72,24 @@
 }
 
 @media(min-width: 780px) {
+    .footer {
+        padding: 0 4rem;
+    }
+
     .footer__container {
-        padding: 8rem 3.5rem 1rem;
+        padding: 5.9rem 0 1rem;
         gap: 2.9rem;
+    }
+
+    .footer__description {
+        padding-right: 0;
+        padding-left: 0;
+        padding-top: 1rem;
     }
 
     .footer__logo {
         margin-bottom: 1rem;
+        gap: 1rem;
     }
 
     .footer__toggle {
@@ -76,28 +100,25 @@
         margin-bottom: 2rem;
     }
 
-    .footer__description {
-        padding-top: 1rem;
-    }
-
     .footer__links--mobile-row {
         flex-direction: row;
     }
 
     .footer__link-container {
         display: flex;
-        padding: 0 2.2rem 0 0;
+        padding: 0 2rem 0 0;
         justify-content: space-between;
     }
 
     .footer__links {
         padding: 1rem 0;
+        width: 14.4rem;
     }
 
     .footer__list {
         display: flex;
         flex-direction: column;
-        gap: 2rem;
+        gap: 1.87rem;
     }
 
     .footer__link {
@@ -108,7 +129,7 @@
 @media(min-width: 1024px) {
     .footer__container {
         flex-direction: row;
-        gap: 4rem;
+        gap: 4.2rem;
         padding: 8rem 0 1rem;
     }
 
@@ -117,16 +138,26 @@
     }
 
     .footer__about {
-        width: 50%;
+        width: 47%;
+    }
+
+    .footer__links {
+        padding: 1rem 0;
+        width: 10.3rem;
     }
 
     .footer__socials {
         margin-top: 4rem;
     }
 
+    .footer__text--column-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 1.8rem;
+    }
+
     .footer__link-container {
         gap: 2rem;
-        padding: 0;
-        flex: 2 1 37.5rem;
+        padding: 0.15rem 0;
     }
 }

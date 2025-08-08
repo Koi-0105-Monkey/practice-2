@@ -1,7 +1,7 @@
 .subscribe {
   max-width: var(--max-width-container);
   margin: 0 auto;
-  padding: 0;
+  padding: 0 1rem;
   border-radius: var(--radius-xl);
   display: flex;
   text-align: center;
@@ -12,9 +12,10 @@
   background-color: #FACD4914;
   max-width: var(--max-width-container-secondary);
   flex-direction: column;
+  align-items: center;
   border-radius: var(--radius-sm);
-  padding: 1.9rem 2.5rem 4rem;
-  margin: 0 1rem;
+  padding: 4rem 3.5rem 4rem;
+  margin: 0 auto;
 }
 
 .subscribe__form {
@@ -25,7 +26,7 @@
   width: 90%;
   flex-direction: column;
   justify-content: center;
-  margin-top: 2rem;
+  margin-top: 2.2rem;
 }
 
 .subscribe__title {
@@ -40,7 +41,6 @@
   align-items: center;
   gap: 0.8rem;
   width: 120%;
-
 }
 
 .subscribe__input::placeholder {
@@ -63,11 +63,12 @@
 .subscribe__button {
   background: var(--color-button);
   color: var(--color-background);
-  padding: var(--padding-button);
-  font-size: var(--font-size-large);
+  padding: 1.1rem 3.2rem;
+  font-size: var(--font-size-small);
   font-weight: var(--font-weight-body);
-  border-radius: var(--radius-sm);
+  border-radius: var(--radius-bs);
   width: 77%;
+  margin: 1rem 0 0;
 }
 
 @media(min-width: 480px) {
@@ -77,17 +78,40 @@
   }
 }
 
-@media(min-width: 768px) {  
+@media(min-width: 768px) {
+  .subscribe {
+    padding: 6rem 2rem;
+  }
+
   .subscribe__container {
-    margin: 0;
+    margin: 0 auto;
+    margin-left: 1rem;
+    padding: 4rem 2.2rem;
   }
 
   .subscribe__form {
     flex-direction: row;
   }
 
+  .subscribe__title {
+    margin-top: 2rem;
+    padding: 0 1.9rem;
+  }
+
   .subscribe__button {
     width: 16%;
+    border-radius: var(--radius-xl);
+    padding: 2.1rem 4rem;
+    font-size: var(--font-size-large);
+  }
+
+  .subscribe__form-group {
+    width: 100%;
+    margin-top: 0.8rem;
+  }
+
+  .subscribe__icon {
+    width: 2rem;
   }
 
   .subscribe__input {
@@ -101,10 +125,15 @@
 
 @media(min-width: 1024px) {
   .subscribe {
-  padding: 7rem 0 3.8rem;
-}
+    padding: 7rem 0 3.8rem;
+  }
 
-.subscribe__container {
+  .subscribe__container {
     margin: 0 auto;
+    padding: 4rem 0.5rem;
+  }
+
+  .subscribe__button {
+    padding: 2.2rem 3.3rem;
   }
 }
