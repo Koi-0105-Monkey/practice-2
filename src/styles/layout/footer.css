@@ -126,7 +126,7 @@
     }
 }
 
-@media(min-width: 1024px) {
+@media(min-width: 1025px) {
     .footer__container {
         flex-direction: row;
         gap: 4.2rem;

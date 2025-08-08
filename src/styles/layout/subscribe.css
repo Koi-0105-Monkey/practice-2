@@ -71,7 +71,7 @@
   margin: 1rem 0 0;
 }
 
-@media(min-width: 480px) {
+@media(min-width: 481px) {
   .subscribe__form-group {
     width: 100%;
     padding: 2rem;
@@ -123,7 +123,7 @@
   }
 }
 
-@media(min-width: 1024px) {
+@media(min-width: 1025px) {
   .subscribe {
     padding: 7rem 0 3.8rem;
   }
