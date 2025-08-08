@@ -12,5 +12,5 @@
 @import './components/testimonial.css';
 @import './components/subscribe.css';
 @import './components/footer.css';
-@import './components/components.css';
-@import './components/card.css';
+@import './components/common/components.css';
+@import './components/common/card.css';
