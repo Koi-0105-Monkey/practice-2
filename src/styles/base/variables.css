@@ -2,8 +2,6 @@
   --max-width-container: 1440px;
   --max-width-container-primary: 1312px;
   --max-width-container-secondary: 1184px;
-  --padding-section: 4rem;                   /* 64px */
-  --padding-inline: 0.8rem;                    /* 16px */
 
   --color-background: #ffffff;
   --color-surface: #f9f9f9;
@@ -40,9 +38,6 @@
   --font-size-xxxlarge: 3rem;        /* 48px */
   --font-size-hero: 4rem;            /* 64px */
   --font-size-logo: 1.5rem;  
-
-  --font-weight-body: 400;
-  --font-weight-heading: 700;
 
   --line-height-mobile: 1.75rem; 
   --line-height-base: 2.5rem;

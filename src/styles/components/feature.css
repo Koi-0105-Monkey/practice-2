@@ -8,7 +8,7 @@
     display: flex;
     max-width: var(--max-width-container-primary);
     margin: 0 auto;
-    padding: 1rem 0;
+    padding: 1rem 0 2rem;
     flex-direction: column;
     gap: 2rem;
 }
@@ -17,6 +17,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    text-align: center;
     gap: 2rem;
     margin-top: 1.9rem;
     order: 2;
@@ -79,7 +80,6 @@
     color: var(--color-header);
     font-size: var(--font-size-xxxmedium);
     line-height: var(--line-height-tight);
-    font-weight: var(--font-weight-body);
 }
 
 .feature__card--schedule-icon {
@@ -114,6 +114,7 @@
     .feature__content-wrapper {
         margin-top: 2.5rem;
         margin-left: 1rem;
+        text-align: start;
     }
 
     .feature__title {
@@ -133,7 +134,7 @@
 
 @media(min-width: 1025px) {
     .feature__container {
-        padding: 4.2rem 0 4.7rem;
+        padding: 4.2rem 0 3.7rem;
         flex-direction: row;
         gap: 0;
     }

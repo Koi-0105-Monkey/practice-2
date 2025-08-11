@@ -49,7 +49,6 @@
 
 .service-card__heading {
     font-size: var(--font-size-large);
-    font-weight: var(--font-weight-body);
     line-height: var(--line-height-tight);
     color: var(--color-heading);
 }
@@ -144,7 +143,6 @@
 
     .service-card__heading {
         font-size: var(--font-size-slarge);
-        font-weight: var(--font-weight-body);
         color: var(--color-heading);
     }
 
