@@ -68,7 +68,6 @@
 .footer__heading {
     color: var(--color-heading);
     font-size: var(--font-size-xxxmedium);
-    font-weight: var(--font-weight-body);
 }
 
 @media(min-width: 780px) {
@@ -115,6 +114,12 @@
         width: 14.4rem;
     }
 
+    .footer__text--column-reverse {
+        display: flex;
+        flex-direction: column;
+        gap: 1.8rem;
+    }
+
     .footer__list {
         display: flex;
         flex-direction: column;
@@ -151,7 +156,6 @@
     }
 
     .footer__text--column-reverse {
-        display: flex;
         flex-direction: column-reverse;
         gap: 1.8rem;
     }

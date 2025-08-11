@@ -1,9 +1,30 @@
+@font-face {
+  font-family: 'ABeeZee';
+  src: url('../../assets/fonts/ABeeZee/ABeeZee-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ABeeZee';
+  src: url('../../assets/fonts/ABeeZee/ABeeZee-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Adamina';
+  src: url('../../assets/fonts/Adamina/Adamina-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 body {
   font-family: var(--font-heading);
   background-color: var(--color-background);
   color: var(--color-text-primary);
   line-height: var(--line-height-mobile);
-  font-weight: var(--font-weight-body);
 }
 
 .label {
@@ -17,12 +38,10 @@ body {
   color: var(--color-heading);
   font-size: var(--font-size-xslarge);
   line-height: var(--line-height-tight);
-  font-weight: var(--font-weight-body);
   margin: 0.9rem 0;
 }
 
 .description {
-  font-weight: var(--font-weight-body);
   font-family: var(--font-body);
   color: var(--color-text-secondary);
   line-height: var(--line-height-relaxed);
@@ -34,7 +53,6 @@ body {
   font-family: var(--font-sub);
   color: var(--color-heading);
   font-style: italic;
-  font-weight: var(--font-weight-body);
 }
 
 .link {
@@ -45,7 +63,7 @@ body {
   color: var(--color-heading);
 }
 
-@media (min-width: 480px) {
+@media (min-width: 481px) {
   .title {
     font-size: var(--font-size-xxlarge);
   }
@@ -59,7 +77,7 @@ body {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
   .title {
     font-size: var(--font-size-xxxlarge);
   }

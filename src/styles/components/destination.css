@@ -28,7 +28,6 @@
 .destination__card-price,
 .destination__card-rate {
     font-size: var(--font-size-xxxmedium);
-    font-weight: var(--font-weight-body);
 }
 
 .destination__card-image {
@@ -104,7 +103,7 @@
     max-width: 1.5rem;
 }
 
-@media(min-width: 480px) {
+@media(min-width: 481px) {
     .destination__card {
         width: 75%;
     }

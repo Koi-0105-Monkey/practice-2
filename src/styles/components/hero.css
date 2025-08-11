@@ -39,7 +39,6 @@
 .hero__title {
   font-size: var(--font-size-xxlarge);
   line-height: var(--line-height-tight);
-  font-weight: var(--font-weight-body);
   color: var(--color-heading);
 }
 
@@ -55,7 +54,7 @@
 .hero__top-place {
   background-color: var(--color-background);
   color: var(--color-accent);
-  max-width: fit-content;
+  width: fit-content;
   border-radius: var(--radius-full);
   display: inline-flex;
   align-items: center;
@@ -248,7 +247,7 @@
   .hero__icon--send,
   .hero__icon--add-friend {
     position: absolute;
-    max-width: 9rem;
+    width: 9rem;
     z-index: 2;
   }
 
