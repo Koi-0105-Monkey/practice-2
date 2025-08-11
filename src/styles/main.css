@@ -3,8 +3,6 @@
 @import './base/variables.css';
 @import './base/typography.css';
 
-@import './base/sr-only.css';
-
 @import './components/button.css';
 @import './components/card.css';
 
