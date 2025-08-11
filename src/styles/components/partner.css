@@ -1,10 +1,10 @@
-.partner-logos {
+.partner {
     max-width: var(--max-width-container);
     margin: 0 auto;
     padding: 0 3.4rem 0 1.8rem;
 }
 
-.partner-logos__container {
+.partner__container {
     max-width: var(--max-width-container-secondary);
     margin: 0 auto;
     padding: 0.4rem 0;
@@ -15,54 +15,54 @@
     gap: 2rem;
 }
 
-.partner-logos__item-tripadvisor,
-.partner-logos__item-expedia,
-.partner-logos__item-booking,
-.partner-logos__item-airbnb,
-.partner-logos__item-orbitz {
+.partner__item-tripadvisor,
+.partner__item-expedia,
+.partner__item-booking,
+.partner__item-airbnb,
+.partner__item-orbitz {
     height: auto;
     flex: 0 0 auto;
 }
 
-.partner-logos__item-booking,
-.partner-logos__item-orbitz {
+.partner__item-booking,
+.partner__item-orbitz {
     width: 28%;
 }
 
-.partner-logos__item-tripadvisor {
+.partner__item-tripadvisor {
     width: 33%;
 }
 
-.partner-logos__item-expedia,
-.partner-logos__item-airbnb {
+.partner__item-expedia,
+.partner__item-airbnb {
     width: 17%;
 }
 
 @media (min-width: 481px) {
-    .partner-logos {
+    .partner {
         padding: 5.7rem 0;
     }
 
-    .partner-logos__container {
+    .partner__container {
         padding: 0 10%;
     }
 
-    .partner-logos__item-tripadvisor,
-    .partner-logos__item-expedia,
-    .partner-logos__item-booking,
-    .partner-logos__item-airbnb,
-    .partner-logos__item-orbitz {
+    .partner__item-tripadvisor,
+    .partner__item-expedia,
+    .partner__item-booking,
+    .partner__item-airbnb,
+    .partner__item-orbitz {
         width: fit-content;
     }
 }
 
 /*line break*/
 @media (min-width: 880px) {
-    .partner-logos {
+    .partner {
         padding: 5.7rem 0;
     }
 
-    .partner-logos__container {
+    .partner__container {
         padding: 0 16%;
         margin-left: 1rem;
         gap: 1.8rem;
@@ -70,11 +70,11 @@
 }
 
 @media (min-width: 1025px) {
-    .partner-logos {
+    .partner {
         padding: 0 2rem;
     }
 
-    .partner-logos__container {
+    .partner__container {
         padding: 4.8rem 0 2rem;
         justify-content: space-between;
         gap: 1rem;
@@ -82,11 +82,11 @@
 }
 
 @media (min-width: 1240px) {
-    .partner-logos {
+    .partner {
         padding: 0 3rem 0 7rem;
     }
 
-    .partner-logos__container {
+    .partner__container {
         padding: 4.8rem 0 2rem;
         justify-content: space-between;
         gap: 1rem;

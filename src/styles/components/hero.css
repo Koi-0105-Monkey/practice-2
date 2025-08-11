@@ -19,14 +19,14 @@
   gap: 2rem;
 }
 
-.hero__left-frame {
+.hero__content-frame {
   padding: 2rem 0;
   align-items: center;
   display: flex;
   flex-direction: column;
 }
 
-.hero__right-frame {
+.hero__image-frame {
   position: relative;
   max-width: 100vw;
   min-height: 65vw;
@@ -184,7 +184,7 @@
     font-size: var(--font-size-xxxlarge);
   }
 
-  .hero__right-frame {
+  .hero__image-frame {
     min-height: 74vw;
   }
 
@@ -213,7 +213,7 @@
 
 /*This break point is used to fix width for hero hero__media-goup and icon*/
 @media (min-width: 900px) {
-  .hero__right-frame {
+  .hero__image-frame {
     min-height: 67.5vw;
   }
 
@@ -226,7 +226,7 @@
     margin-right: 0.9rem;
   }
 
-  .hero__left-frame {
+  .hero__content-frame {
     padding: 2rem 0;
   }
 
@@ -300,13 +300,13 @@
     text-align: left;
   }
 
-  .hero__left-frame {
+  .hero__content-frame {
     max-width: 23.66rem;
     align-items: flex-start;
     padding: 4.4rem 0;
   }
 
-  .hero__right-frame {
+  .hero__image-frame {
     position: relative;
     flex: 1;
     min-height: 0;

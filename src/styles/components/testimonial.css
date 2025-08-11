@@ -68,7 +68,7 @@
     align-items: center;
 }
 
-.testimonial__control {
+.testimonial__controls {
     display: flex;
     flex-direction: row;
     width: 96.5%;
@@ -126,7 +126,7 @@
         display: none !important;
     }
 
-    .testimonial__control {
+    .testimonial__controls {
         width: fit-content;
         margin-bottom: 2.9rem;
     }

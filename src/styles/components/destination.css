@@ -18,7 +18,7 @@
     align-items: center;
 }
 
-.destination__row-header {
+.destination__header-row {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -72,7 +72,7 @@
     width: 94%;
 }
 
-.destination__list-card {
+.destination__cards {
     display: flex;
     margin-top: 2rem;
     align-items: center;
@@ -127,7 +127,7 @@
         margin-left: 1rem;
     }
 
-    .destination__list-card {
+    .destination__cards {
         flex-direction: row;
         gap: 1.5rem;
         justify-content: center;
@@ -152,7 +152,7 @@
 }
 
 @media (min-width: 800px) {
-    .destination__list-card {
+    .destination__cards {
         gap: 1.85rem;
     }
 }
@@ -176,7 +176,7 @@
         margin-top: 0;
     }
 
-    .destination__row-header {
+    .destination__header-row {
         flex-direction: column;
         align-items: start;
         text-align: start;
@@ -191,7 +191,7 @@
         height: 21.8rem;
     }
 
-        .destination__list-card {
+        .destination__cards {
         margin-top: 2.1rem;
     }
 

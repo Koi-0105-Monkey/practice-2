@@ -14,11 +14,11 @@
     gap: 3.5rem;
 }
 
-.travel-point__image-wrapper {
+.travel-point__image-frame {
     width: 100%;
 }
 
-.travel-point__content-wrapper {
+.travel-point__content-frame {
     font-weight: var(--font-weight-body);
     display: flex;
     flex-wrap: wrap;
@@ -76,7 +76,7 @@
         padding: 3.7rem 0;
     }
 
-    .travel-point__image-wrapper {
+    .travel-point__image-frame {
         margin-left: 4.7rem;
     }
 
@@ -84,7 +84,7 @@
         width: 87.5%;
     }
 
-    .travel-point__content-wrapper {
+    .travel-point__content-frame {
         padding-top: 0.6rem;
         padding-left: 0.9rem;
     }
@@ -128,7 +128,7 @@
         gap: 0;
     }
 
-    .travel-point__content-wrapper {
+    .travel-point__content-frame {
         width: 50%;
         padding: 0.7rem 0 0;
     }
@@ -137,7 +137,7 @@
         width: 100%;
     }
 
-    .travel-point__image-wrapper {
+    .travel-point__image-frame {
         margin-left: 0;
         padding-top: 1.5rem;
     }
