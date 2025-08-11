@@ -1,6 +1,13 @@
+@import './base/reset.css';
+
 @import './base/variables.css';
 @import './base/typography.css';
-@import './base/reset.css';
+
+@import './base/sr-only.css';
+
+@import './components/button.css';
+@import './components/card.css';
+
 @import './components/seaction-group.css';
 @import './components/header.css';
 @import './components/hero.css';
@@ -12,5 +19,3 @@
 @import './components/testimonial.css';
 @import './components/subscribe.css';
 @import './components/footer.css';
-@import './components/common/components.css';
-@import './components/common/card.css';
